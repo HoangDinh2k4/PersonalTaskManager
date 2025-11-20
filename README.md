@@ -5,12 +5,12 @@
 
 Ứng dụng quản lý công việc cá nhân (Personal Task Manager) được xây dựng với kiến trúc **RESTful API** sử dụng **.NET 8** cho Backend và **React (Vite)** cho Frontend.
 
-## 🛠 Công nghệ sử dụng
+## Công nghệ sử dụng
 
-  * [cite\_start]**Backend:** ASP.NET Core Web API (.NET 8) [cite: 25]
-  * [cite\_start]**Frontend:** React + Vite [cite: 30]
-  * [cite\_start]**Database:** MySQL (Docker) [cite: 29]
-  * [cite\_start]**ORM:** Entity Framework Core (Pomelo MySQL) [cite: 27]
+  * **Backend:** ASP.NET Core Web API (.NET 8) 
+  * **Frontend:** React + Vite 
+  * **Database:** MySQL (Docker) 
+  * **ORM:** Entity Framework Core (Pomelo MySQL) 
 
 -----
 
@@ -91,17 +91,17 @@ Nếu cần thay đổi, chỉnh sửa file `src/services/api.js`:
     ```
 -----
 
-## 📝 Danh sách chức năng
+## Danh sách chức năng
 
-1.  [cite\_start]**Xem danh sách Task:** Hiển thị tất cả công việc đang làm và đã hoàn thành[cite: 35].
-2.  [cite\_start]**Thêm Task mới:** Nhập tiêu đề, mô tả, ngày hết hạn (mặc định trạng thái "Đang làm")[cite: 34].
-3.  [cite\_start]**Cập nhật Task:** Chỉnh sửa thông tin hoặc đổi trạng thái sang "Hoàn thành"[cite: 36].
-4.  [cite\_start]**Xóa Task:** Xóa công việc khỏi danh sách[cite: 37].
-5.  [cite\_start]**Lọc Task:** Lọc theo trạng thái (Đang làm / Hoàn thành)[cite: 38].
+1.  **Xem danh sách Task:** Hiển thị tất cả công việc đang làm và đã hoàn thành.
+2.  **Thêm Task mới:** Nhập tiêu đề, mô tả, ngày hết hạn (mặc định trạng thái "Đang làm").
+3.  **Cập nhật Task:** Chỉnh sửa thông tin hoặc đổi trạng thái sang "Hoàn thành".
+4.  **Xóa Task:** Xóa công việc khỏi danh sách.
+5.  **Lọc Task:** Lọc theo trạng thái (Đang làm / Hoàn thành).
 
 -----
 
-### 🔒 Business Rules (Ràng buộc)
+### Business Rules (Ràng buộc)
 
 > **Lưu ý quan trọng:** Hệ thống đã áp dụng các quy tắc validate dữ liệu sau:
 
