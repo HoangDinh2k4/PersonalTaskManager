@@ -68,7 +68,7 @@ Kiểm tra file `TaskApi/appsettings.json` và đảm bảo chuỗi kết nối 
     ```
 -----
 
-## 💻 3. Hướng dẫn chạy Frontend (task-client)
+## 3. Hướng dẫn chạy Frontend (task-client)
 
 ### Cấu hình môi trường (.env)
 
